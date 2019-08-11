@@ -217,7 +217,9 @@ plt.plot(x, pred_seq, label = 'one prediction')
 plt.plot(x, obs_seq, label = 'real obs')
 plt.plot(x, pre_mean, label = 'mean')
 plt.legend()
-plt.show()
+#p0lt.show()
+plt.savefig('figure.png')
+
 
 
 
